@@ -19,8 +19,10 @@ function handleBoxCreate() {
     refs.boxesEl.append(newBox);
 
     newBox.style.backgroundColor = getRandomHexColor();
-    newBox.style.width = 60 +"px";
-    newBox.style.height = 60 +"px";
+
+    let size = 30 + 10 * i;  
+    newBox.style.width = size +"px";
+    newBox.style.height = size +"px";
   }
 }
   
