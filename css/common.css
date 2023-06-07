@@ -29,6 +29,10 @@ img {
   height: auto;
 }
 
+ul {
+  list-style: none;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
