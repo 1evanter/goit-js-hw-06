@@ -15,9 +15,9 @@ function handleFormSubmit(event) {
     } else {
         formInfo.email = email.value;
         formInfo.password = password.value;
+        
+        console.log(formInfo);
+        event.currentTarget.reset();
     }
-
-    console.log(formInfo);
- event.currentTarget.reset();
 }
  
