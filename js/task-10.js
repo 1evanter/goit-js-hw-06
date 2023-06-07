@@ -14,6 +14,8 @@ createBtnEl: document.querySelector('[data-create]'),
 refs.createBtnEl.addEventListener('click', handleBoxCreate);
 
 function handleBoxCreate() {
+  refs.boxesEl.innerHTML = '';
+  
   for (let i = 0; i < refs.inputEl.value; i += 1) {
     const newBox = document.createElement('div');
     refs.boxesEl.append(newBox);
